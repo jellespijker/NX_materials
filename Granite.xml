@@ -1,0 +1,1133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<MatML_Doc>
+    <Material>
+        <BulkDetails>
+            <Name>Granite</Name>
+            <Class>
+                <Name>STONE</Name>
+            </Class>
+            <PropertyData property="Material Type">
+                <Data format="string">IsotropicMaterial</Data>
+            </PropertyData>
+            <PropertyData property="Version">
+                <Data format="string">1.0</Data>
+            </PropertyData>
+            <PropertyData property="MaterialType_0">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Isotropic</Qualifier>
+            </PropertyData>
+            <PropertyData property="AltName_1">
+                <Data format="string">
+                Granite</Data>
+            </PropertyData>
+            <PropertyData property="Description_2">
+                <Data format="string">
+                Granite is a type of common industrial natural stone. The graph bars on the material properties cards below compare granite to other natural stone materials (top) and the entire database (bottom). A full bar means this is the highest value in the relevant set. A half-full bar means it's 50% of the highest, and so on.
+
+Source: https://www.makeitfrom.com/material-properties/Granite</Data>
+            </PropertyData>
+            <PropertyData property="DensityControl_3">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Constant or Temperature or Frequency</Qualifier>
+            </PropertyData>
+            <PropertyData property="MassDensity_0">
+                <Data format="exponential">
+                2.900000e+03</Data>
+            </PropertyData>
+            <PropertyData property="YoungsModulusControl_4">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Temperature</Qualifier>
+            </PropertyData>
+            <PropertyData property="YoungsModulus_1">
+                <Data format="exponential">
+                7.000000e+04</Data>
+            </PropertyData>
+            <PropertyData property="PoissonsRatioType_5">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Major Poisson's Ratio</Qualifier>
+            </PropertyData>
+            <PropertyData property="PoissonsRatioControl_6">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Temperature</Qualifier>
+            </PropertyData>
+            <PropertyData property="PoissonsRatio_2">
+                <Data format="exponential">
+                2.500000e-01</Data>
+            </PropertyData>
+            <PropertyData property="ShearModulus_3">
+                <Data format="exponential">
+                2.700000e+04</Data>
+            </PropertyData>
+            <PropertyData property="StressStrainDataType_7">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Engineering Stress-Strain</Qualifier>
+            </PropertyData>
+            <PropertyData property="MatlNonlinearityType_8">
+                <Data format="integer">
+                1</Data>
+                <Qualifier>PLASTIC</Qualifier>
+            </PropertyData>
+            <PropertyData property="YieldFunctionCriterion_9">
+                <Data format="integer">
+                1</Data>
+                <Qualifier>von Mises</Qualifier>
+            </PropertyData>
+            <PropertyData property="CompressiveTensileyieldRatio_4">
+                <Data format="exponential">
+                1.300000e+00</Data>
+            </PropertyData>
+            <PropertyData property="HardeningRule_10">
+                <Data format="integer">
+                1</Data>
+                <Qualifier>Isotropic</Qualifier>
+            </PropertyData>
+            <PropertyData property="MixedHardeningRatio_5">
+                <Data format="exponential">
+                5.000000e-01</Data>
+            </PropertyData>
+            <PropertyData property="KinematicLaws_11">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Prager (KPRA)</Qualifier>
+            </PropertyData>
+            <PropertyData property="StrainRatedependency_12">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Symonds and Cowper</Qualifier>
+            </PropertyData>
+            <PropertyData property="MechanicalPowertoHeatRatio_6">
+                <Data format="exponential">
+                0.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="UltTensile_7">
+                <Data format="exponential">
+                3.900000e+01</Data>
+            </PropertyData>
+            <PropertyData property="StressLifeDataFormat_13">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Expression</Qualifier>
+            </PropertyData>
+            <PropertyData property="StrainLifeDataFormat_14">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Expression</Qualifier>
+            </PropertyData>
+            <PropertyData property="PercentAreaReduction_8">
+                <Data format="exponential">
+                0.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="RRatioType_15">
+                <Data format="integer">
+                1</Data>
+                <Qualifier>Specify</Qualifier>
+            </PropertyData>
+            <PropertyData property="RRatio_9">
+                <Data format="exponential">
+                -1.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="TestType_16">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Tension</Qualifier>
+            </PropertyData>
+            <PropertyData property="SurvivalProbability_10">
+                <Data format="exponential">
+                5.000000e+01</Data>
+            </PropertyData>
+            <PropertyData property="TSigma90-10_11">
+                <Data format="exponential">
+                1.500000e+00</Data>
+            </PropertyData>
+            <PropertyData property="EnduranceLimitOption_17">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Cycles</Qualifier>
+            </PropertyData>
+            <PropertyData property="ThermalExpansionCoefficientControl_18">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Temperature</Qualifier>
+            </PropertyData>
+            <PropertyData property="ThermalExpansionCoefficientControl2_19">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>None</Qualifier>
+            </PropertyData>
+            <PropertyData property="ThermalExpansionA_12">
+                <Data format="exponential">
+                0.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="ThermalConductivityControl_20">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Constant or Temperature</Qualifier>
+            </PropertyData>
+            <PropertyData property="TempConductivityBehaviorType_21">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Isotropic</Qualifier>
+            </PropertyData>
+            <PropertyData property="ThermalConductivity_13">
+                <Data format="exponential">
+                2.700000e+00</Data>
+            </PropertyData>
+            <PropertyData property="DummyThermalConductivity1_22">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Empty</Qualifier>
+            </PropertyData>
+            <PropertyData property="DummyThermalConductivity2_23">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Empty</Qualifier>
+            </PropertyData>
+            <PropertyData property="DummyThermalConductivity3_24">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Empty</Qualifier>
+            </PropertyData>
+            <PropertyData property="DummyThermalConductivity4_25">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Empty</Qualifier>
+            </PropertyData>
+            <PropertyData property="CuringMatConductivityBehaviorType_26">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Isotropic</Qualifier>
+            </PropertyData>
+            <PropertyData property="SpecificHeatControl_27">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Constant or Temperature</Qualifier>
+            </PropertyData>
+            <PropertyData property="SpecificHeat_14">
+                <Data format="exponential">
+                8.400000e+02</Data>
+            </PropertyData>
+            <PropertyData property="ElectromagneticFrequency_28">
+                <Data format="integer">
+                2</Data>
+                <Qualifier>Common Electrical</Qualifier>
+            </PropertyData>
+            <PropertyData property="HighFrequencyDielectricModel_29">
+                <Data format="integer">
+                1</Data>
+                <Qualifier>Const+Sigma</Qualifier>
+            </PropertyData>
+            <PropertyData property="ElectConductivityResistivityMode_30">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Conductivity</Qualifier>
+            </PropertyData>
+            <PropertyData property="ElectConductivityMethod_31">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Linear</Qualifier>
+            </PropertyData>
+            <PropertyData property="ElectResistivityMethod_32">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Linear</Qualifier>
+            </PropertyData>
+            <PropertyData property="PermittivityType_33">
+                <Data format="integer">
+                1</Data>
+                <Qualifier>Linear Permittivity</Qualifier>
+            </PropertyData>
+            <PropertyData property="HighFrequencyMagneticModel_34">
+                <Data format="integer">
+                1</Data>
+                <Qualifier>Const+Sigma</Qualifier>
+            </PropertyData>
+            <PropertyData property="MagnetType_35">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Soft Magnetic</Qualifier>
+            </PropertyData>
+            <PropertyData property="ElectroMagnetPermeabilityMethod_36">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Linear Permeability</Qualifier>
+            </PropertyData>
+            <PropertyData property="PermanentMagnetPermeabilityMethod_37">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Linear Permeability</Qualifier>
+            </PropertyData>
+            <PropertyData property="PermanentMagnetPermeabilityDependency_38">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Constant</Qualifier>
+            </PropertyData>
+            <PropertyData property="DemagnetizationSpecification_39">
+                <Data format="integer">
+                1</Data>
+            </PropertyData>
+            <PropertyData property="IronLossMethod_40">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Direct Entry</Qualifier>
+            </PropertyData>
+            <PropertyData property="JilesAthertonScenario_41">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Direct Entry</Qualifier>
+            </PropertyData>
+            <PropertyData property="SpecifyCoercivity_42">
+                <Data format="integer">
+                0</Data>
+            </PropertyData>
+            <PropertyData property="SpecifyRemanence_43">
+                <Data format="integer">
+                0</Data>
+            </PropertyData>
+            <PropertyData property="CreepFormulation_44">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>##397None</Qualifier>
+            </PropertyData>
+            <PropertyData property="CreepReferenceTemperature_15">
+                <Data format="exponential">
+                0.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="TempDependTermType_45">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>exp( -DeltaH / ( R * T0 ))</Qualifier>
+            </PropertyData>
+            <PropertyData property="CreepTemperatureDependence_16">
+                <Data format="exponential">
+                1.000000e-09</Data>
+            </PropertyData>
+            <PropertyData property="CreepThreshold_17">
+                <Data format="exponential">
+                1.000000e-05</Data>
+            </PropertyData>
+            <PropertyData property="CreepHardening_46">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Strain</Qualifier>
+            </PropertyData>
+            <PropertyData property="CheckUnitSystem_47">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>No</Qualifier>
+            </PropertyData>
+            <PropertyData property="ForceLengthMassUnits_48">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>(N)(m)(kg)</Qualifier>
+            </PropertyData>
+            <PropertyData property="KelvinMaxwellC1Function_49">
+                <Data format="integer">
+                1</Data>
+                <Qualifier>a * SIGMA ^ b</Qualifier>
+            </PropertyData>
+            <PropertyData property="KelvinMaxwellC2Function_50">
+                <Data format="integer">
+                1</Data>
+                <Qualifier>c * exp( d * SIGMA )</Qualifier>
+            </PropertyData>
+            <PropertyData property="KelvinMaxwellC3Function_51">
+                <Data format="integer">
+                1</Data>
+                <Qualifier>e * [sinh( f * SIGMA )] ^ g</Qualifier>
+            </PropertyData>
+            <PropertyData property="ViscoelasticDomain_52">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>##397None</Qualifier>
+            </PropertyData>
+            <PropertyData property="ViscoelasticType_53">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Isotropic</Qualifier>
+            </PropertyData>
+            <PropertyData property="ViscoelasticType2_54">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Isotropic</Qualifier>
+            </PropertyData>
+            <PropertyData property="ViscoelasticTimeDefn_55">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Frequency Data</Qualifier>
+            </PropertyData>
+            <PropertyData property="TimeErrorTolerance_18">
+                <Data format="exponential">
+                1.000000e-02</Data>
+            </PropertyData>
+            <PropertyData property="TimeNMax_56">
+                <Data format="integer">
+                13</Data>
+                <Qualifier>13</Qualifier>
+            </PropertyData>
+            <PropertyData property="ViscoelasticTimeDefnCreepTestDataFormat_57">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Normalized Shear Compliance Data</Qualifier>
+            </PropertyData>
+            <PropertyData property="ViscoelasticTimeDefnRelaxTestDataFormat_58">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Normalized Shear Relaxation Data</Qualifier>
+            </PropertyData>
+            <PropertyData property="ViscoelasticFrequencyDefn_59">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Power Formula</Qualifier>
+            </PropertyData>
+            <PropertyData property="ViscoelasticFrequencyDefn2_60">
+                <Data format="integer">
+                4</Data>
+                <Qualifier>Tabular</Qualifier>
+            </PropertyData>
+            <PropertyData property="FreqErrorTolerance_19">
+                <Data format="exponential">
+                1.000000e-02</Data>
+            </PropertyData>
+            <PropertyData property="FreqNMax_61">
+                <Data format="integer">
+                13</Data>
+                <Qualifier>13</Qualifier>
+            </PropertyData>
+            <PropertyData property="ViscoelasticFrequencyDefnCreepTestDataFormat_62">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Normalized Shear Compliance Data</Qualifier>
+            </PropertyData>
+            <PropertyData property="ViscoelasticFrequencyDefnRelaxTestDataFormat_63">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Normalized Shear Relaxation Data</Qualifier>
+            </PropertyData>
+            <PropertyData property="ViscoelasticPreload_64">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>##397None</Qualifier>
+            </PropertyData>
+            <PropertyData property="ViscoelasticPreload2_65">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>##397None</Qualifier>
+            </PropertyData>
+            <PropertyData property="FreqFormulaG1_20">
+                <Data format="exponential">
+                0.000000e+00 , 0.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="FreqFormulaK1_21">
+                <Data format="exponential">
+                0.000000e+00 , 0.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="ViscoplasticModelType_66">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>None</Qualifier>
+            </PropertyData>
+            <PropertyData property="DamageModelType_67">
+                <Data format="integer">
+                3</Data>
+                <Qualifier>None</Qualifier>
+            </PropertyData>
+            <PropertyData property="PlyDamageVersion_68">
+                <Data format="integer">
+                1</Data>
+                <Qualifier>PLYENH2</Qualifier>
+            </PropertyData>
+            <PropertyData property="3DEffectParameter_69">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Plane Stress Effect</Qualifier>
+            </PropertyData>
+            <PropertyData property="NonlinearCoeffOption_70">
+                <Data format="integer">
+                1</Data>
+                <Qualifier>Depends on Stress  (PLYUNI3)</Qualifier>
+            </PropertyData>
+            <PropertyData property="NonlinearOption_71">
+                <Data format="integer">
+                1</Data>
+                <Qualifier>Function</Qualifier>
+            </PropertyData>
+            <PropertyData property="ShearEnergyOption_72">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Linear Damage Law for Shear</Qualifier>
+            </PropertyData>
+            <PropertyData property="CouplingCoefficient_b2_22">
+                <Data format="exponential">
+                0.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="CouplingCoefficient_b3_23">
+                <Data format="exponential">
+                0.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="CouplingCoefficient_a_24">
+                <Data format="exponential">
+                0.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="CouplingCoefficient_k_25">
+                <Data format="exponential">
+                0.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="CouplingCoefficient_alpha_26">
+                <Data format="exponential">
+                0.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="CouplingCoefficient_alpha1_27">
+                <Data format="exponential">
+                0.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="CouplingCoefficient_alpha2_28">
+                <Data format="exponential">
+                0.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="MaxTransMicroCrackDamage_29">
+                <Data format="exponential">
+                7.000000e-01</Data>
+            </PropertyData>
+            <PropertyData property="TransitionThickness_30">
+                <Data format="exponential">
+                0.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="ParameterDelay_31">
+                <Data format="exponential">
+                1.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="TimeDelay_32">
+                <Data format="exponential">
+                0.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="PlasticityStrategyParameter_73">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Applied on delayed damage</Qualifier>
+            </PropertyData>
+            <PropertyData property="NonLocalParameter_33">
+                <Data format="exponential">
+                0.000000e+00</Data>
+            </PropertyData>
+            <PropertyData property="LinearBehavior_74">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Relative Damaged Poisson's Ratio (mode 1)</Qualifier>
+            </PropertyData>
+            <PropertyData property="DynamicViscosityControl_75">
+                <Data format="integer">
+                0</Data>
+                <Qualifier>Constant or Temperature</Qualifier>
+            </PropertyData>
+            <PropertyData property="enableTab1_76">
+                <Data format="integer">
+                0</Data>
+            </PropertyData>
+            <PropertyData property="Adhesive_77">
+                <Data format="string">
+                </Data>
+            </PropertyData>
+            <PropertyData property="CrosshatchPattern_78">
+                <Data format="string">
+                </Data>
+            </PropertyData>
+            <PropertyData property="ConfigurableProperties_79">
+                <Data format="string">
+                </Data>
+            </PropertyData>
+            <PropertyData property="NxNastranUMATModelType_80">
+                <Data format="integer">
+                </Data>
+                <Qualifier>None</Qualifier>
+            </PropertyData>
+            <PropertyData property="NxNastranUMATModel1_81">
+                <Data format="integer">
+                </Data>
+                <Qualifier>None</Qualifier>
+            </PropertyData>
+            <PropertyData property="NxNastranUMATStateVarOutputModel1_82">
+                <Data format="integer">
+                </Data>
+            </PropertyData>
+            <PropertyData property="NxNastranUMATModel2_83">
+                <Data format="integer">
+                </Data>
+                <Qualifier>None</Qualifier>
+            </PropertyData>
+            <PropertyData property="NxNastranUMATStateVarOutputModel2_84">
+                <Data format="integer">
+                </Data>
+            </PropertyData>
+            <PropertyData property="NxNastranUMATCreepModel1_85">
+                <Data format="integer">
+                </Data>
+                <Qualifier>None</Qualifier>
+            </PropertyData>
+            <PropertyData property="NxNastranUMATCreepStateVarOutputModel1_86">
+                <Data format="integer">
+                </Data>
+            </PropertyData>
+            <PropertyData property="NxNastranUMATCreepModel2_87">
+                <Data format="integer">
+                </Data>
+                <Qualifier>None</Qualifier>
+            </PropertyData>
+            <PropertyData property="NxNastranUMATCreepStateVarOutputModel2_88">
+                <Data format="integer">
+                </Data>
+            </PropertyData>
+            <Notes>Granite is a type of common industrial natural stone. The graph bars on the material properties cards below compare granite to other natural stone materials (top) and the entire database (bottom). A full bar means this is the highest value in the relevant set. A half-full bar means it's 50% of the highest, and so on.
+
+Source: https://www.makeitfrom.com/material-properties/Granite</Notes>
+        </BulkDetails>
+    </Material>
+    <Metadata>
+        <PropertyDetails id="MassDensity_0">
+            <Name>MassDensity</Name>
+            <Units description="kilograms per meter cubed" name="kg/m^3">
+                <Unit>
+                    <Name>kg/m^3</Name>
+                </Unit>
+            </Units>
+        </PropertyDetails>
+        <PropertyDetails id="YoungsModulus_1">
+            <Name>YoungsModulus</Name>
+            <Units description="Newtons per millimeter squared" name="N/mm^2(MPa)">
+                <Unit>
+                    <Name>N/mm^2(MPa)</Name>
+                </Unit>
+            </Units>
+        </PropertyDetails>
+        <PropertyDetails id="PoissonsRatio_2">
+            <Name>PoissonsRatio</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="ShearModulus_3">
+            <Name>ShearModulus</Name>
+            <Units description="Newtons per millimeter squared" name="N/mm^2(MPa)">
+                <Unit>
+                    <Name>N/mm^2(MPa)</Name>
+                </Unit>
+            </Units>
+        </PropertyDetails>
+        <PropertyDetails id="CompressiveTensileyieldRatio_4">
+            <Name>CompressiveTensileyieldRatio</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="MixedHardeningRatio_5">
+            <Name>MixedHardeningRatio</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="MechanicalPowertoHeatRatio_6">
+            <Name>MechanicalPowertoHeatRatio</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="UltTensile_7">
+            <Name>UltTensile</Name>
+            <Units description="Newtons per millimeter squared" name="N/mm^2(MPa)">
+                <Unit>
+                    <Name>N/mm^2(MPa)</Name>
+                </Unit>
+            </Units>
+        </PropertyDetails>
+        <PropertyDetails id="PercentAreaReduction_8">
+            <Name>PercentAreaReduction</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="RRatio_9">
+            <Name>RRatio</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="SurvivalProbability_10">
+            <Name>SurvivalProbability</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="TSigma90-10_11">
+            <Name>TSigma90-10</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="ThermalExpansionA_12">
+            <Name>ThermalExpansionA</Name>
+            <Units description="Expansion coefficient per degree Celsius" name="1/dC">
+                <Unit>
+                    <Name>1/dC</Name>
+                </Unit>
+            </Units>
+        </PropertyDetails>
+        <PropertyDetails id="ThermalConductivity_13">
+            <Name>ThermalConductivity</Name>
+            <Units description="Watts per meter per kelvin" name="W/m-dK">
+                <Unit>
+                    <Name>W/m-dK</Name>
+                </Unit>
+            </Units>
+        </PropertyDetails>
+        <PropertyDetails id="SpecificHeat_14">
+            <Name>SpecificHeat</Name>
+            <Units description="joules per kilogram per kelvin" name="J/kg-dK">
+                <Unit>
+                    <Name>J/kg-dK</Name>
+                </Unit>
+            </Units>
+        </PropertyDetails>
+        <PropertyDetails id="CreepReferenceTemperature_15">
+            <Name>CreepReferenceTemperature</Name>
+            <Units description="Celsius" name="C">
+                <Unit>
+                    <Name>C</Name>
+                </Unit>
+            </Units>
+        </PropertyDetails>
+        <PropertyDetails id="CreepTemperatureDependence_16">
+            <Name>CreepTemperatureDependence</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="CreepThreshold_17">
+            <Name>CreepThreshold</Name>
+            <Units description="millimeters per millimeter" name="mm/mm">
+                <Unit>
+                    <Name>mm/mm</Name>
+                </Unit>
+            </Units>
+        </PropertyDetails>
+        <PropertyDetails id="TimeErrorTolerance_18">
+            <Name>TimeErrorTolerance</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="FreqErrorTolerance_19">
+            <Name>FreqErrorTolerance</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="FreqFormulaG1_20">
+            <Name>FreqFormulaG1</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="FreqFormulaK1_21">
+            <Name>FreqFormulaK1</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="CouplingCoefficient_b2_22">
+            <Name>CouplingCoefficient_b2</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="CouplingCoefficient_b3_23">
+            <Name>CouplingCoefficient_b3</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="CouplingCoefficient_a_24">
+            <Name>CouplingCoefficient_a</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="CouplingCoefficient_k_25">
+            <Name>CouplingCoefficient_k</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="CouplingCoefficient_alpha_26">
+            <Name>CouplingCoefficient_alpha</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="CouplingCoefficient_alpha1_27">
+            <Name>CouplingCoefficient_alpha1</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="CouplingCoefficient_alpha2_28">
+            <Name>CouplingCoefficient_alpha2</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="MaxTransMicroCrackDamage_29">
+            <Name>MaxTransMicroCrackDamage</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="TransitionThickness_30">
+            <Name>TransitionThickness</Name>
+            <Units description="millimeters" name="mm">
+                <Unit>
+                    <Name>mm</Name>
+                </Unit>
+            </Units>
+        </PropertyDetails>
+        <PropertyDetails id="ParameterDelay_31">
+            <Name>ParameterDelay</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="TimeDelay_32">
+            <Name>TimeDelay</Name>
+            <Units description="seconds" name="sec">
+                <Unit>
+                    <Name>sec</Name>
+                </Unit>
+            </Units>
+        </PropertyDetails>
+        <PropertyDetails id="NonLocalParameter_33">
+            <Name>NonLocalParameter</Name>
+            <Units description="millimeters" name="mm">
+                <Unit>
+                    <Name>mm</Name>
+                </Unit>
+            </Units>
+        </PropertyDetails>
+        <PropertyDetails id="MaterialType_0">
+            <Name>MaterialType</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="AltName_1">
+            <Name>AltName</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="Description_2">
+            <Name>Description</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="DensityControl_3">
+            <Name>DensityControl</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="YoungsModulusControl_4">
+            <Name>YoungsModulusControl</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="PoissonsRatioType_5">
+            <Name>PoissonsRatioType</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="PoissonsRatioControl_6">
+            <Name>PoissonsRatioControl</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="StressStrainDataType_7">
+            <Name>StressStrainDataType</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="MatlNonlinearityType_8">
+            <Name>MatlNonlinearityType</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="YieldFunctionCriterion_9">
+            <Name>YieldFunctionCriterion</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="HardeningRule_10">
+            <Name>HardeningRule</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="KinematicLaws_11">
+            <Name>KinematicLaws</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="StrainRatedependency_12">
+            <Name>StrainRatedependency</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="StressLifeDataFormat_13">
+            <Name>StressLifeDataFormat</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="StrainLifeDataFormat_14">
+            <Name>StrainLifeDataFormat</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="RRatioType_15">
+            <Name>RRatioType</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="TestType_16">
+            <Name>TestType</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="EnduranceLimitOption_17">
+            <Name>EnduranceLimitOption</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="ThermalExpansionCoefficientControl_18">
+            <Name>ThermalExpansionCoefficientControl</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="ThermalExpansionCoefficientControl2_19">
+            <Name>ThermalExpansionCoefficientControl2</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="ThermalConductivityControl_20">
+            <Name>ThermalConductivityControl</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="TempConductivityBehaviorType_21">
+            <Name>TempConductivityBehaviorType</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="DummyThermalConductivity1_22">
+            <Name>DummyThermalConductivity1</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="DummyThermalConductivity2_23">
+            <Name>DummyThermalConductivity2</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="DummyThermalConductivity3_24">
+            <Name>DummyThermalConductivity3</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="DummyThermalConductivity4_25">
+            <Name>DummyThermalConductivity4</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="CuringMatConductivityBehaviorType_26">
+            <Name>CuringMatConductivityBehaviorType</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="SpecificHeatControl_27">
+            <Name>SpecificHeatControl</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="ElectromagneticFrequency_28">
+            <Name>ElectromagneticFrequency</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="HighFrequencyDielectricModel_29">
+            <Name>HighFrequencyDielectricModel</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="ElectConductivityResistivityMode_30">
+            <Name>ElectConductivityResistivityMode</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="ElectConductivityMethod_31">
+            <Name>ElectConductivityMethod</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="ElectResistivityMethod_32">
+            <Name>ElectResistivityMethod</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="PermittivityType_33">
+            <Name>PermittivityType</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="HighFrequencyMagneticModel_34">
+            <Name>HighFrequencyMagneticModel</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="MagnetType_35">
+            <Name>MagnetType</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="ElectroMagnetPermeabilityMethod_36">
+            <Name>ElectroMagnetPermeabilityMethod</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="PermanentMagnetPermeabilityMethod_37">
+            <Name>PermanentMagnetPermeabilityMethod</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="PermanentMagnetPermeabilityDependency_38">
+            <Name>PermanentMagnetPermeabilityDependency</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="DemagnetizationSpecification_39">
+            <Name>DemagnetizationSpecification</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="IronLossMethod_40">
+            <Name>IronLossMethod</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="JilesAthertonScenario_41">
+            <Name>JilesAthertonScenario</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="SpecifyCoercivity_42">
+            <Name>SpecifyCoercivity</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="SpecifyRemanence_43">
+            <Name>SpecifyRemanence</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="CreepFormulation_44">
+            <Name>CreepFormulation</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="TempDependTermType_45">
+            <Name>TempDependTermType</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="CreepHardening_46">
+            <Name>CreepHardening</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="CheckUnitSystem_47">
+            <Name>CheckUnitSystem</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="ForceLengthMassUnits_48">
+            <Name>ForceLengthMassUnits</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="KelvinMaxwellC1Function_49">
+            <Name>KelvinMaxwellC1Function</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="KelvinMaxwellC2Function_50">
+            <Name>KelvinMaxwellC2Function</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="KelvinMaxwellC3Function_51">
+            <Name>KelvinMaxwellC3Function</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="ViscoelasticDomain_52">
+            <Name>ViscoelasticDomain</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="ViscoelasticType_53">
+            <Name>ViscoelasticType</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="ViscoelasticType2_54">
+            <Name>ViscoelasticType2</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="ViscoelasticTimeDefn_55">
+            <Name>ViscoelasticTimeDefn</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="TimeNMax_56">
+            <Name>TimeNMax</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="ViscoelasticTimeDefnCreepTestDataFormat_57">
+            <Name>ViscoelasticTimeDefnCreepTestDataFormat</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="ViscoelasticTimeDefnRelaxTestDataFormat_58">
+            <Name>ViscoelasticTimeDefnRelaxTestDataFormat</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="ViscoelasticFrequencyDefn_59">
+            <Name>ViscoelasticFrequencyDefn</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="ViscoelasticFrequencyDefn2_60">
+            <Name>ViscoelasticFrequencyDefn2</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="FreqNMax_61">
+            <Name>FreqNMax</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="ViscoelasticFrequencyDefnCreepTestDataFormat_62">
+            <Name>ViscoelasticFrequencyDefnCreepTestDataFormat</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="ViscoelasticFrequencyDefnRelaxTestDataFormat_63">
+            <Name>ViscoelasticFrequencyDefnRelaxTestDataFormat</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="ViscoelasticPreload_64">
+            <Name>ViscoelasticPreload</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="ViscoelasticPreload2_65">
+            <Name>ViscoelasticPreload2</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="ViscoplasticModelType_66">
+            <Name>ViscoplasticModelType</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="DamageModelType_67">
+            <Name>DamageModelType</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="PlyDamageVersion_68">
+            <Name>PlyDamageVersion</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="3DEffectParameter_69">
+            <Name>3DEffectParameter</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="NonlinearCoeffOption_70">
+            <Name>NonlinearCoeffOption</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="NonlinearOption_71">
+            <Name>NonlinearOption</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="ShearEnergyOption_72">
+            <Name>ShearEnergyOption</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="PlasticityStrategyParameter_73">
+            <Name>PlasticityStrategyParameter</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="LinearBehavior_74">
+            <Name>LinearBehavior</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="DynamicViscosityControl_75">
+            <Name>DynamicViscosityControl</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="enableTab1_76">
+            <Name>enableTab1</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="Adhesive_77">
+            <Name>Adhesive</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="CrosshatchPattern_78">
+            <Name>CrosshatchPattern</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="ConfigurableProperties_79">
+            <Name>ConfigurableProperties</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="NxNastranUMATModelType_80">
+            <Name>NxNastranUMATModelType</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="NxNastranUMATModel1_81">
+            <Name>NxNastranUMATModel1</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="NxNastranUMATStateVarOutputModel1_82">
+            <Name>NxNastranUMATStateVarOutputModel1</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="NxNastranUMATModel2_83">
+            <Name>NxNastranUMATModel2</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="NxNastranUMATStateVarOutputModel2_84">
+            <Name>NxNastranUMATStateVarOutputModel2</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="NxNastranUMATCreepModel1_85">
+            <Name>NxNastranUMATCreepModel1</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="NxNastranUMATCreepStateVarOutputModel1_86">
+            <Name>NxNastranUMATCreepStateVarOutputModel1</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="NxNastranUMATCreepModel2_87">
+            <Name>NxNastranUMATCreepModel2</Name>
+            <Unitless/>
+        </PropertyDetails>
+        <PropertyDetails id="NxNastranUMATCreepStateVarOutputModel2_88">
+            <Name>NxNastranUMATCreepStateVarOutputModel2</Name>
+            <Unitless/>
+        </PropertyDetails>
+    </Metadata>
+</MatML_Doc>
